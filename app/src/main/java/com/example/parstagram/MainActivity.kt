@@ -46,7 +46,18 @@ class MainActivity : AppCompatActivity() {
             onLaunchCamera()
         }
 
+        findViewById<Button>(R.id.btnLogout).setOnClickListener {
+            ParseUser.logOut();
+            gotoLoginScreen()
+        }
+
         queryPost()
+    }
+
+    private fun gotoLoginScreen() {
+        var intent= Intent(this@MainActivity, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
