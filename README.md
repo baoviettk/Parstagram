@@ -26,8 +26,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<p float="left">
+    <img src='walkthrough.gif' title='Video Walkthrough 1' width='250' alt='Video Walkthrough 1' />
+    <img src='walkthrough2.gif' title='Video Walkthrough 2' width='250' alt='Video Walkthrough 2' />
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+</p>
+
 
 GIF created with [ScreenToGif](https://www.screentogif.com/).
 
